@@ -1,0 +1,16 @@
+{
+  "name": "rorvswild-light-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Accessible Atom theme based on RoRvsWild colors.",
+  "keywords": [
+    "syntax",
+    "theme",
+    "light"
+  ],
+  "repository": "https://github.com/BaseSecrete/rorvswild-theme-atom-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
