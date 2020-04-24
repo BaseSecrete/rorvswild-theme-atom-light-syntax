@@ -59,7 +59,7 @@ atom-text-editor {
 }
 
 .syntax--keyword {
-  color: @fushia;
+  color: @blue;
 
   &.syntax--control {
     color: @red;
@@ -74,7 +74,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: @red;
+    color: @blue;
   }
 }
 
@@ -83,14 +83,14 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @yellow;
+  color: @cyan;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
   &.syntax--numeric {
-    color: @yellow;
+    color: @fushia;
   }
 
   &.syntax--other.syntax--color {
@@ -103,10 +103,10 @@ atom-text-editor {
 }
 
 .syntax--variable {
-  color: @red;
+  color: @yellow;
 
   &.syntax--interpolation {
-    color: darken(@red, 10%);
+    color: @orange;
   }
 
   &.syntax--parameter.syntax--function {
@@ -120,18 +120,18 @@ atom-text-editor {
 }
 
 .syntax--string {
-  color: @cyan;
+  color: @green;
 
   &.syntax--regexp {
     color: @green;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @green;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @blue;
+    color: @green;
   }
 }
 
@@ -145,12 +145,12 @@ atom-text-editor {
     &.syntax--variable,
     &.syntax--parameters,
     &.syntax--array {
-      color: @blue;
+      color: @cyan;
     }
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @cyan;
+      color: @blue;
     }
 
     &.syntax--bold {
@@ -159,7 +159,6 @@ atom-text-editor {
     }
 
     &.syntax--italic {
-      color: @purple;
       font-style: italic;
     }
   }
@@ -171,14 +170,14 @@ atom-text-editor {
 
 .syntax--support {
   &.syntax--class {
-    color: @yellow;
+    color: @red;
   }
 
   &.syntax--function  {
-    color: @fushia;
+    color: @purple;
 
     &.syntax--any-method {
-      color: @blue;
+      color: @purple;
     }
   }
 }
@@ -207,12 +206,11 @@ atom-text-editor {
   }
 
   &.syntax--name.syntax--tag {
-    color: @fushia;
-    text-decoration: underline;
+    color: @red;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @blue;
+    color: @purple;
 
     &.syntax--id {
       color: @cyan;
@@ -249,7 +247,6 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
     font-weight: bold;
   }
 
@@ -262,7 +259,6 @@ atom-text-editor {
   }
 
   &.syntax--italic {
-    color: @purple;
     font-style: italic;
   }
 
@@ -299,9 +295,9 @@ atom-text-editor.editor {
   .bracket-colorizer-color1 { color: @gray-500; }
   .bracket-colorizer-color2 { color: @yellow; }
   .bracket-colorizer-color3 { color: @orange; }
-  .bracket-colorizer-color4 { color: @red; }
-  .bracket-colorizer-color5 { color: @fushia; }
-  .bracket-colorizer-color6 { color: @purple; }
+  .bracket-colorizer-color4 { color: @purple; }
+  .bracket-colorizer-color5 { color: @red; }
+  .bracket-colorizer-color6 { color: @fushia; }
   .bracket-colorizer-color7 { color: @blue; }
 }
 

@@ -1,4 +1,5 @@
 # rorvswild light theme for Atom (syntax)
+[atom.io →](https://atom.io/themes/rorvswild-light-syntax)
 
 Accessible light Atom theme based on [RoRvsWild](https://www.rorvswild.com) colors.
 
@@ -6,4 +7,10 @@ Accessible light Atom theme based on [RoRvsWild](https://www.rorvswild.com) colo
 
 There is also a matching [light UI theme](https://github.com/BaseSecrete/rorvswild-theme-atom-light-ui).
 
-There is also a [dark syntax version](https://github.com/BaseSecrete/rorvswild-theme-atom-dark-syntax) with [matching dark UI theme](https://github.com/BaseSecrete/rorvswild-theme-atom-dark-ui).
+# Other versions
+[RoRvsWild theme →](https://www.rorvswild.com/theme)
+
+# About
+Made in Geneva, Switzerland by [Base Secrète](https://basesecrete.com).
+
+[RoRvsWild](https://rorvswild.com) is an  application monitoring tool for Ruby on Rails developers.
